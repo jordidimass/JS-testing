@@ -45,3 +45,36 @@ function areaCirculo(radio){
 }
 
 console.groupEnd();
+
+//////Botones/////
+
+// Boton Cuadrado
+function calcularPerimetroCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+
+    const perimetro = perimetroCuadrado(value);
+    alert(perimetro);
+}
+function calcularAreaCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+
+    const area = areaCuadrada(value);
+    alert(area);
+}
+// Boton Triangulo
+function calcularPerimetroTriangulo(){
+    const input = document.getElementById("InputTriangulo");
+    const value = input.value;
+
+    const perimetro = perimetroTriangulo(value);
+    alert(perimetro);
+}
+function calcularAreaTriangulo(){
+    const input = document.getElementById("InputTriangulo");
+    const value = input.value;
+
+    const area = areaTriangulo(value);
+    alert(area);
+}
